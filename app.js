@@ -17,29 +17,29 @@ function p1(){
    question1 = question1.toLowerCase();
    if (question1 == respuestas[0]){ 
     alert( "respuesta correcta");
-    buenas.innerHTML += ("</br>" + preguntas [0] + " " + respuestas [0]);
+    buenas.innerHTML += ("</br>" + preguntas [0] + "</br>" + respuestas [0]);
    } else {
     alert(" respuesta incorrecta");
-    malas.innerHTML += "</br> " + preguntas[0] +" " + question1 + " <em>(" + respuestas[0] + "</em>)";
+    malas.innerHTML += "</br> " + preguntas[0] + "</br>" + question1 + " (" + respuestas[0] + ")";
    }
    var question2 = prompt("2-" + preguntas [1]);
    question2 = question2.toLowerCase();
    if ( question2 == respuestas[1]) {
     alert("respuesta correcta");
-    buenas.innerHTML +=("</br> " + preguntas [1] + " " + respuestas [1]);
+    buenas.innerHTML +=("</br> " + preguntas [1] + "</br>" + respuestas [1]);
    } else {
    alert("respuesta incorrecta");
-   malas.innerHTML += "</br> " + preguntas[1] +" " + question2 + " <em>(" + respuestas[1] + "</em>)";
+   malas.innerHTML += "</br> " + preguntas[1] + "</br>" + question2 +  " (" + respuestas[1]+ ")";
    }
 
    var question3 = prompt("3-" + preguntas [2]);
    question3 = question3.toLowerCase();
    if ( question3 == respuestas[2] ) {
     alert(" respuesta correcta");
-    buenas.innerHTML +=("</br> " + preguntas [2] + " " + respuestas [2]);
+    buenas.innerHTML +=("</br> " + preguntas [2] + "</br>" + respuestas [2]);
    } else {
     alert ("respuesta incorrecta");
-    malas.innerHTML += "</br> " + preguntas[2] +" " + question3 + " <em>(" + respuestas[2] + "</em>)";
+    malas.innerHTML += "</br> " + preguntas[2] + "</br>" + question3 + " (" + respuestas[2] + ")";
   }
 }
   
